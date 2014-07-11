@@ -185,6 +185,14 @@ public class GameBoard extends RelativeLayout {
 		for(int i = 0; i<rects.length; i++){
 			for(int j = 0; j<rects.length; j++){
 				int n = game.getBlock(i, j);
+				String s = game.getSymbol(n);
+				if(s.length() == 1){
+					cells[i][j].setTextSize(30);
+				}else if(s.length() == 2){
+					cells[i][j].setTextSize(25);
+				}else {
+					cells[i][j].setTextSize(20);
+				}
 				cells[i][j].setText(game.getSymbol(n));
 			}
 		}

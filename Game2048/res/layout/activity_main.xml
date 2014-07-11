@@ -31,7 +31,9 @@
         android:layout_height="30dp"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/restart"
+        android:layout_toRightOf="@id/restart"
         android:layout_marginRight="40dp"
+        android:layout_marginLeft="10dp"
         android:text="最好成绩"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -44,8 +46,10 @@
         android:layout_height="70dp"
         android:layout_alignParentRight="true"
         android:layout_alignBottom="@+id/restart"
+        android:layout_toRightOf="@id/restart"
         android:layout_marginBottom="0dp"
         android:layout_marginRight="40dp"
+        android:layout_marginLeft="10dp"
         android:text="夏"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
